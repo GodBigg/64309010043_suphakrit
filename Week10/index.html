@@ -36,14 +36,28 @@
             let obj = JSON.parse(this.responseText);
             for (i = 0; i < obj.length; i++) {
                 //console.log(obj[i]);
-                temp += '<tr><td>' 
-                    + '<h3>'+obj[i].movieName+'</h3>'
-                    + "ความยาวหนัง " + obj[i].movieLength + " นาที" + '<br>' 
-                    + "หมวดหมู่ "+obj[i].category
-                    + "ผู้กำกับ " + obj[i].director+'<br><br>'
-                    + '<img width=20% src='+obj[i].picture+'>'
-                    + '<td>'+'<iframe src='+obj[i].trailer+'></iframe>'+'</td>'
-                    + '</td></tr>'; //เก็บข้อมูลจาก json เป็น obj   
+                temp += '<tr>'
+                    + '<td>'
+                    + '<h2>' + obj[i].movieName + '</h2>'
+                    + "<b>ความยาวหนัง </b> " + obj[i].movieLength + " นาที" + "&nbsp&nbsp&nbsp&nbsp&nbsp" //+ '<br>'
+                    + "<b>หมวดหมู่ </b> " + obj[i].category + "&nbsp&nbsp&nbsp&nbsp&nbsp"//+ '<br>'
+                    + "<b>ผู้กำกับ </b>" + obj[i].director + '<br><br>'
+
+                    + '<img width=25% src=' + obj[i].picture + '>' + '<br><br>'
+                    + '<iframe width=560 height=315 src=https://www.youtube.com/embed/' + obj[i].trailer + '></iframe><br><br>'
+
+                    + '<h2>รีวิว</h2>' + obj[i].review.review + '<br><br>'
+
+                    + '<h2>สรุปคะแนน</h2>'
+                    + '<b>บทหนัง </b>' + obj[i].review.score.screenPlay + "&nbsp&nbsp&nbsp&nbsp&nbsp"
+                    + '<b>การดำเนินเรื่อง </b>' + obj[i].review.score.playing + "&nbsp&nbsp&nbsp&nbsp&nbsp"
+                    + '<b>ดนตรีประกอบ </b>' + obj[i].review.score.music + "&nbsp&nbsp&nbsp&nbsp&nbsp"
+                    + '<b>ฝีมือนักแสดง </b>' + obj[i].review.score.actorSkills + "&nbsp&nbsp&nbsp&nbsp&nbsp"
+                    + '<b>กราฟฟิก </b>' + obj[i].review.score.graphics + "&nbsp&nbsp&nbsp&nbsp&nbsp"
+                    + '<b>คะแนนเฉลี่ย </b>' + obj[i].review.score.average + "&nbsp&nbsp&nbsp&nbsp&nbsp"
+                    + '<hr color="black"><br>'
+                    + '</td>'
+                    + '</tr>'; //เก็บข้อมูลจาก json เป็น obj   
             }
 
             document.getElementById('display').innerHTML = '<table class="table">' + temp + '</table>';
