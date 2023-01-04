@@ -25,16 +25,16 @@
 
 </head>
 
-<body>
-    <div class="container">
+<body style="background-color: #c8c8c8;">
+    <div class="container" style="background-color: white; padding: 3%;">
 
         <form id="myForm">
             <div class="row">
-                <div class="col-9">
+                <div class="col-8">
                     <label>Movie Name</label>
                     <input type="text" class="form-control" id="movieName">
                 </div>
-                <div class="col">
+                <div class="col-4">
                     <label>Movie Length</label>
                     <input type="text" class="form-control" id="movieLength">
                 </div>
@@ -62,33 +62,65 @@
             <div class="row">
                 <div class="col">
                     <label>Review</label>
-                    <input type="text" class="form-control" id="review">
+                    <textarea class="form-control" id="review"></textarea>
                 </div>
             </div>
             <div class="row">
                 <div class="col">
                     <label>Screen Play</label>
-                    <input type="text" class="form-control" id="screenPlay">
+                    <input type="number" class="form-control" id="screenPlay">
                 </div>
                 <div class="col">
                     <label>Playing</label>
-                    <input type="text" class="form-control" id="playing">
+                    <input type="number" class="form-control" id="playing">
                 </div>
                 <div class="col">
                     <label>Music</label>
-                    <input type="text" class="form-control" id="music">
+                    <input type="number" class="form-control" id="music">
                 </div>
                 <div class="col">
                     <label>Actor Skills</label>
-                    <input type="text" class="form-control" id="actorSkills">
+                    <input type="number" class="form-control" id="actorSkills">
                 </div>
                 <div class="col">
                     <label>Graphics</label>
-                    <input type="text" class="form-control" id="graphics">
+                    <input type="number" class="form-control" id="graphics">
+                </div>
+            </div>
+            <div class="row" align="center">
+                <div class="col">
+                    <input class="btn btn-success" type="button" value="Submit" onclick="add()">
                 </div>
             </div>
         </form>
     </div>
+
+    <script>
+        function add() {
+            let obj = {
+                "id": "",
+                "movieName": document.forms['myForm']['movieName'].value,
+                "movieLength": document.forms['myForm']['movieLength'].value,
+                "director": document.forms['myForm']['director'].value,
+                "category": document.forms['myForm']['category'].value,
+                "picture": document.forms['myForm']['picture'].value,
+                "trailer": document.forms['myForm']['trailer'].value,
+                "review":{
+                    "review": document.forms['myForm']['review'].value,
+                    "score":{
+                        "screenPlay": document.forms['myForm']['screenPlay'].value,
+                        "playing": document.forms['myForm']['playing'].value,
+                        "music": document.forms['myForm']['music'].value,
+                        "actorSkills": document.forms['myForm']['actorSkills'].value,
+                        "graphics": document.forms['myForm']['graphics'].value,
+                        "average": null
+                    }
+                }
+            };
+            console.log(obj);
+        }
+
+    </script>
 </body>
 
 </html>
