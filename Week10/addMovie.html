@@ -32,37 +32,37 @@
             <div class="row">
                 <div class="col-8">
                     <label>Movie Name</label>
-                    <input type="text" class="form-control" id="movieName">
+                    <input type="text" class="form-control" id="movieName" placeholder="ชื่อหนัง">
                 </div>
                 <div class="col-4">
                     <label>Movie Length</label>
-                    <input type="text" class="form-control" id="movieLength">
+                    <input type="number" class="form-control" id="movieLength" placeholder="ความยาวหนัง/นาที">
                 </div>
             </div>
             <div class="row">
                 <div class="col">
                     <label>Director</label>
-                    <input type="text" class="form-control" id="director">
+                    <input type="text" class="form-control" id="director" placeholder="ผู้กำกับ">
                 </div>
                 <div class="col">
                     <label>Category</label>
-                    <input type="text" class="form-control" id="category">
+                    <input type="text" class="form-control" id="category" placeholder="ประเภทหนัง">
                 </div>
             </div>
             <div class="row">
                 <div class="col">
                     <label>Picture</label>
-                    <input type="text" class="form-control" id="picture">
+                    <input type="text" class="form-control" id="picture" placeholder="ภาพหน้าปกหนัง">
                 </div>
                 <div class="col">
                     <label>Trailer</label>
-                    <input type="text" class="form-control" id="trailer">
+                    <input type="text" class="form-control" id="trailer" placeholder="วิดีโอตัวอย่าง">
                 </div>
             </div>
             <div class="row">
                 <div class="col">
                     <label>Review</label>
-                    <textarea class="form-control" id="review"></textarea>
+                    <textarea class="form-control" id="review" placeholder="รีวิว"></textarea>
                 </div>
             </div>
             <div class="row">
@@ -87,9 +87,11 @@
                     <input type="number" class="form-control" id="graphics">
                 </div>
             </div>
+            <br>
             <div class="row" align="center">
                 <div class="col">
                     <input class="btn btn-success" type="button" value="Submit" onclick="add()">
+                    <input class="btn btn-secondary" type="button" value="Cancel">
                 </div>
             </div>
         </form>
@@ -117,9 +119,18 @@
                     }
                 }
             };
-            console.log(obj);
-        }
 
+            console.log(obj);
+
+            let text = JSON.stringify(obj);
+            console.log("HelloText",text);
+
+            let xhttp = new XMLHttpRequest();
+            xhttp.open("POST","http://localhost:3000/movieReview");
+            xhttp.setRequestHeader("Contevt-Type","application/json");
+            xhttp.send(text);
+
+        }
     </script>
 </body>
 
