@@ -33,6 +33,15 @@ var Order = [{
 }
 ];
 
+for (let i = 0; i < Order.length; i++) {
+    let sum = 0
+    for (let j = 0; j < Order[i].itemOrder.length; j++) {
+        sum += Order[i].Qty[j] * Order[i].price[j]
+    }
+    console.log(Order[i].customer, sum)
+}
+
+/*
 console.log(Order[0].customer,
     Order[0].price[0] * Order[0].Qty[0] +
     Order[0].price[1] * Order[0].Qty[1])
@@ -45,3 +54,4 @@ console.log(Order[2].customer,
     Order[2].price[0] * Order[2].Qty[0] +
     Order[2].price[1] * Order[2].Qty[1] +
     Order[2].price[2] * Order[2].Qty[2])
+    */
