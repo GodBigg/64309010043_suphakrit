@@ -2,13 +2,17 @@
 <html lang="en">
 
 <head>
-    <title>Map</title>
+    <title>Title</title>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -20,41 +24,37 @@
         crossorigin="anonymous"></script>
 
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="container">
-        <div id="display"></div>
+        <div id="display" style="width: 100%; height: 1000px;"></div>
     </div>
-
     <script>
-        google.charts.load('current', {
-            'packages': ['geochart'],
-        });
-
-        google.charts.setOnLoadCallback(draw);
-
-        function draw() {
-            fetch('https://jirawatchk.github.io/api.json')
+        google.charts.load("current", { packages: ["corechart"] });
+        google.charts.setOnLoadCallback(drawChart);
+        function drawChart() {
+            fetch('hello.json')
                 .then(res => res.json())
                 .then(data => {
                     console.log(data);
-                    //console.log(data[1])    
+
                     let dataMap = [];
-                    dataMap[0] = ['Provinces', 'Total'];
-                    for (i = 1; i < 78; i++) {
-                        dataMap[i] = [data[i]['CC-DESC'], parseInt(data[i]['TOTAL'].replaceAll(',',''))];
-                        //data[i].CC-DESC       แบบเดิม
-                        //data[i]['CC-DESC']    แบบใหม่
+                    dataMap[0] = ['YEAR', 'SEX', 'VALUE'];
+                    for (i = 1; i < 30; i++) {
+                        dataMap[i] = [data[i]['YEAR'], data[i]['SEX'], parseInt(data[i]['VALUE'].replaceAll(',', ''))];
                     }
                     console.log(dataMap);
+
                     var data = google.visualization.arrayToDataTable(dataMap)
                     var options = {
-                        region:'TH',
-                        resolution:'provinces'
+                        title: 'Monthly Coffee Production by Country',
+                        vAxis: { title: 'VALUE' },
+                        hAxis: { title: 'Year' },
+                        seriesType: 'bars',
+                        series: { 2: { type: 'line' } }
                     };
-                    var chart = new google.visualization.GeoChart(document.getElementById('display'));
+                    var chart = new google.visualization.ComboChart(document.getElementById('display'));
                     chart.draw(data, options);
                 });
         }

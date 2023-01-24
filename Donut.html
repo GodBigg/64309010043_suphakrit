@@ -28,7 +28,7 @@
 
 <body>
     <div class="container">
-        <div id="display" style="width: 100%; height: 500px;"></div>
+        <div id="display" style="width: 100%; height: 1000px;"></div>
     </div>
     <script>
         google.charts.load("current", { packages: ["corechart"] });
@@ -47,13 +47,14 @@
                     console.log(dataMap);
                     var data = google.visualization.arrayToDataTable(dataMap)
                     var options = {
-                        title: 'สัดส่วนประชากรประเทศไทยในปี 2564',
+                        title: 'สัดส่วนประชากรประเทศไทยอายุตั้งแต่ 15-59 ปี (จากทะเบียน) ปี 2564 ',
                         pieHole: 0.4,
                     };
                     
                     var chart = new google.visualization.PieChart(document.getElementById('display'));
                     chart.draw(data, options);
                 });
+                
         }
     </script>
 </body>
