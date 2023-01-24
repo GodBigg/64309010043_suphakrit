@@ -1,0 +1,272 @@
+[
+    {
+        "YEAR": "2555",
+        "SEX": "\u0e23\u0e27\u0e21",
+        "VALUE": "43206670.00",
+        "UNIT": "\u0e04\u0e19",
+        "VALUE_PERCENT": "67.03",
+        "UNIT_PERCENT": "\u0e23\u0e49\u0e2d\u0e22\u0e25\u0e30",
+        "SOURCE": "\u0e01\u0e23\u0e21\u0e01\u0e32\u0e23\u0e1b\u0e01\u0e04\u0e23\u0e2d\u0e07 \u0e01\u0e23\u0e30\u0e17\u0e23\u0e27\u0e07\u0e21\u0e2b\u0e32\u0e14\u0e44\u0e17\u0e22"
+    },
+    {
+        "YEAR": "2556",
+        "SEX": "\u0e23\u0e27\u0e21",
+        "VALUE": "43112004.00",
+        "UNIT": "\u0e04\u0e19",
+        "VALUE_PERCENT": "66.55",
+        "UNIT_PERCENT": "\u0e23\u0e49\u0e2d\u0e22\u0e25\u0e30",
+        "SOURCE": "\u0e01\u0e23\u0e21\u0e01\u0e32\u0e23\u0e1b\u0e01\u0e04\u0e23\u0e2d\u0e07 \u0e01\u0e23\u0e30\u0e17\u0e23\u0e27\u0e07\u0e21\u0e2b\u0e32\u0e14\u0e44\u0e17\u0e22"
+    },
+    {
+        "YEAR": "2557",
+        "SEX": "\u0e23\u0e27\u0e21",
+        "VALUE": "43144297.00",
+        "UNIT": "\u0e04\u0e19",
+        "VALUE_PERCENT": "66.25",
+        "UNIT_PERCENT": "\u0e23\u0e49\u0e2d\u0e22\u0e25\u0e30",
+        "SOURCE": "\u0e01\u0e23\u0e21\u0e01\u0e32\u0e23\u0e1b\u0e01\u0e04\u0e23\u0e2d\u0e07 \u0e01\u0e23\u0e30\u0e17\u0e23\u0e27\u0e07\u0e21\u0e2b\u0e32\u0e14\u0e44\u0e17\u0e22"
+    },
+    {
+        "YEAR": "2558",
+        "SEX": "\u0e23\u0e27\u0e21",
+        "VALUE": "43206411.00",
+        "UNIT": "\u0e04\u0e19",
+        "VALUE_PERCENT": "65.73",
+        "UNIT_PERCENT": "\u0e23\u0e49\u0e2d\u0e22\u0e25\u0e30",
+        "SOURCE": "\u0e01\u0e23\u0e21\u0e01\u0e32\u0e23\u0e1b\u0e01\u0e04\u0e23\u0e2d\u0e07 \u0e01\u0e23\u0e30\u0e17\u0e23\u0e27\u0e07\u0e21\u0e2b\u0e32\u0e14\u0e44\u0e17\u0e22"
+    },
+    {
+        "YEAR": "2559",
+        "SEX": "\u0e23\u0e27\u0e21",
+        "VALUE": "43181734.00",
+        "UNIT": "\u0e04\u0e19",
+        "VALUE_PERCENT": "65.49",
+        "UNIT_PERCENT": "\u0e23\u0e49\u0e2d\u0e22\u0e25\u0e30",
+        "SOURCE": "\u0e01\u0e23\u0e21\u0e01\u0e32\u0e23\u0e1b\u0e01\u0e04\u0e23\u0e2d\u0e07 \u0e01\u0e23\u0e30\u0e17\u0e23\u0e27\u0e07\u0e21\u0e2b\u0e32\u0e14\u0e44\u0e17\u0e22"
+    },
+    {
+        "YEAR": "2560",
+        "SEX": "\u0e23\u0e27\u0e21",
+        "VALUE": "43097272.00",
+        "UNIT": "\u0e04\u0e19",
+        "VALUE_PERCENT": "65.11",
+        "UNIT_PERCENT": "\u0e23\u0e49\u0e2d\u0e22\u0e25\u0e30",
+        "SOURCE": "\u0e01\u0e23\u0e21\u0e01\u0e32\u0e23\u0e1b\u0e01\u0e04\u0e23\u0e2d\u0e07 \u0e01\u0e23\u0e30\u0e17\u0e23\u0e27\u0e07\u0e21\u0e2b\u0e32\u0e14\u0e44\u0e17\u0e22"
+    },
+    {
+        "YEAR": "2561",
+        "SEX": "\u0e23\u0e27\u0e21",
+        "VALUE": "42996625.00",
+        "UNIT": "\u0e04\u0e19",
+        "VALUE_PERCENT": "64.74",
+        "UNIT_PERCENT": "\u0e23\u0e49\u0e2d\u0e22\u0e25\u0e30",
+        "SOURCE": "\u0e01\u0e23\u0e21\u0e01\u0e32\u0e23\u0e1b\u0e01\u0e04\u0e23\u0e2d\u0e07 \u0e01\u0e23\u0e30\u0e17\u0e23\u0e27\u0e07\u0e21\u0e2b\u0e32\u0e14\u0e44\u0e17\u0e22"
+    },
+    {
+        "YEAR": "2562",
+        "SEX": "\u0e23\u0e27\u0e21",
+        "VALUE": "42845915.00",
+        "UNIT": "\u0e04\u0e19",
+        "VALUE_PERCENT": "64.37",
+        "UNIT_PERCENT": "\u0e23\u0e49\u0e2d\u0e22\u0e25\u0e30",
+        "SOURCE": "\u0e01\u0e23\u0e21\u0e01\u0e32\u0e23\u0e1b\u0e01\u0e04\u0e23\u0e2d\u0e07 \u0e01\u0e23\u0e30\u0e17\u0e23\u0e27\u0e07\u0e21\u0e2b\u0e32\u0e14\u0e44\u0e17\u0e22"
+    },
+    {
+        "YEAR": "2563",
+        "SEX": "\u0e23\u0e27\u0e21",
+        "VALUE": "42652475.00",
+        "UNIT": "\u0e04\u0e19",
+        "VALUE_PERCENT": "64.44",
+        "UNIT_PERCENT": "\u0e23\u0e49\u0e2d\u0e22\u0e25\u0e30",
+        "SOURCE": "\u0e01\u0e23\u0e21\u0e01\u0e32\u0e23\u0e1b\u0e01\u0e04\u0e23\u0e2d\u0e07 \u0e01\u0e23\u0e30\u0e17\u0e23\u0e27\u0e07\u0e21\u0e2b\u0e32\u0e14\u0e44\u0e17\u0e22"
+    },
+    {
+        "YEAR": "2564",
+        "SEX": "\u0e23\u0e27\u0e21",
+        "VALUE": "42428971.00",
+        "UNIT": "\u0e04\u0e19",
+        "VALUE_PERCENT": "64.12",
+        "UNIT_PERCENT": "\u0e23\u0e49\u0e2d\u0e22\u0e25\u0e30",
+        "SOURCE": "\u0e01\u0e23\u0e21\u0e01\u0e32\u0e23\u0e1b\u0e01\u0e04\u0e23\u0e2d\u0e07 \u0e01\u0e23\u0e30\u0e17\u0e23\u0e27\u0e07\u0e21\u0e2b\u0e32\u0e14\u0e44\u0e17\u0e22"
+    },
+    {
+        "YEAR": "2555",
+        "SEX": "\u0e0a\u0e32\u0e22",
+        "VALUE": "21303789.00",
+        "UNIT": "\u0e04\u0e19",
+        "VALUE_PERCENT": "67.20",
+        "UNIT_PERCENT": "\u0e23\u0e49\u0e2d\u0e22\u0e25\u0e30",
+        "SOURCE": "\u0e01\u0e23\u0e21\u0e01\u0e32\u0e23\u0e1b\u0e01\u0e04\u0e23\u0e2d\u0e07 \u0e01\u0e23\u0e30\u0e17\u0e23\u0e27\u0e07\u0e21\u0e2b\u0e32\u0e14\u0e44\u0e17\u0e22"
+    },
+    {
+        "YEAR": "2556",
+        "SEX": "\u0e0a\u0e32\u0e22",
+        "VALUE": "21273590.00",
+        "UNIT": "\u0e04\u0e19",
+        "VALUE_PERCENT": "66.80",
+        "UNIT_PERCENT": "\u0e23\u0e49\u0e2d\u0e22\u0e25\u0e30",
+        "SOURCE": "\u0e01\u0e23\u0e21\u0e01\u0e32\u0e23\u0e1b\u0e01\u0e04\u0e23\u0e2d\u0e07 \u0e01\u0e23\u0e30\u0e17\u0e23\u0e27\u0e07\u0e21\u0e2b\u0e32\u0e14\u0e44\u0e17\u0e22"
+    },
+    {
+        "YEAR": "2557",
+        "SEX": "\u0e0a\u0e32\u0e22",
+        "VALUE": "21295655.00",
+        "UNIT": "\u0e04\u0e19",
+        "VALUE_PERCENT": "66.55",
+        "UNIT_PERCENT": "\u0e23\u0e49\u0e2d\u0e22\u0e25\u0e30",
+        "SOURCE": "\u0e01\u0e23\u0e21\u0e01\u0e32\u0e23\u0e1b\u0e01\u0e04\u0e23\u0e2d\u0e07 \u0e01\u0e23\u0e30\u0e17\u0e23\u0e27\u0e07\u0e21\u0e2b\u0e32\u0e14\u0e44\u0e17\u0e22"
+    },
+    {
+        "YEAR": "2558",
+        "SEX": "\u0e0a\u0e32\u0e22",
+        "VALUE": "21329243.00",
+        "UNIT": "\u0e04\u0e19",
+        "VALUE_PERCENT": "66.07",
+        "UNIT_PERCENT": "\u0e23\u0e49\u0e2d\u0e22\u0e25\u0e30",
+        "SOURCE": "\u0e01\u0e23\u0e21\u0e01\u0e32\u0e23\u0e1b\u0e01\u0e04\u0e23\u0e2d\u0e07 \u0e01\u0e23\u0e30\u0e17\u0e23\u0e27\u0e07\u0e21\u0e2b\u0e32\u0e14\u0e44\u0e17\u0e22"
+    },
+    {
+        "YEAR": "2559",
+        "SEX": "\u0e0a\u0e32\u0e22",
+        "VALUE": "21318923.00",
+        "UNIT": "\u0e04\u0e19",
+        "VALUE_PERCENT": "65.88",
+        "UNIT_PERCENT": "\u0e23\u0e49\u0e2d\u0e22\u0e25\u0e30",
+        "SOURCE": "\u0e01\u0e23\u0e21\u0e01\u0e32\u0e23\u0e1b\u0e01\u0e04\u0e23\u0e2d\u0e07 \u0e01\u0e23\u0e30\u0e17\u0e23\u0e27\u0e07\u0e21\u0e2b\u0e32\u0e14\u0e44\u0e17\u0e22"
+    },
+    {
+        "YEAR": "2560",
+        "SEX": "\u0e0a\u0e32\u0e22",
+        "VALUE": "21280943.00",
+        "UNIT": "\u0e04\u0e19",
+        "VALUE_PERCENT": "65.55",
+        "UNIT_PERCENT": "\u0e23\u0e49\u0e2d\u0e22\u0e25\u0e30",
+        "SOURCE": "\u0e01\u0e23\u0e21\u0e01\u0e32\u0e23\u0e1b\u0e01\u0e04\u0e23\u0e2d\u0e07 \u0e01\u0e23\u0e30\u0e17\u0e23\u0e27\u0e07\u0e21\u0e2b\u0e32\u0e14\u0e44\u0e17\u0e22"
+    },
+    {
+        "YEAR": "2561",
+        "SEX": "\u0e0a\u0e32\u0e22",
+        "VALUE": "21240404.00",
+        "UNIT": "\u0e04\u0e19",
+        "VALUE_PERCENT": "65.24",
+        "UNIT_PERCENT": "\u0e23\u0e49\u0e2d\u0e22\u0e25\u0e30",
+        "SOURCE": "\u0e01\u0e23\u0e21\u0e01\u0e32\u0e23\u0e1b\u0e01\u0e04\u0e23\u0e2d\u0e07 \u0e01\u0e23\u0e30\u0e17\u0e23\u0e27\u0e07\u0e21\u0e2b\u0e32\u0e14\u0e44\u0e17\u0e22"
+    },
+    {
+        "YEAR": "2562",
+        "SEX": "\u0e0a\u0e32\u0e22",
+        "VALUE": "21172142.00",
+        "UNIT": "\u0e04\u0e19",
+        "VALUE_PERCENT": "64.94",
+        "UNIT_PERCENT": "\u0e23\u0e49\u0e2d\u0e22\u0e25\u0e30",
+        "SOURCE": "\u0e01\u0e23\u0e21\u0e01\u0e32\u0e23\u0e1b\u0e01\u0e04\u0e23\u0e2d\u0e07 \u0e01\u0e23\u0e30\u0e17\u0e23\u0e27\u0e07\u0e21\u0e2b\u0e32\u0e14\u0e44\u0e17\u0e22"
+    },
+    {
+        "YEAR": "2563",
+        "SEX": "\u0e0a\u0e32\u0e22",
+        "VALUE": "21085920.00",
+        "UNIT": "\u0e04\u0e19",
+        "VALUE_PERCENT": "65.13",
+        "UNIT_PERCENT": "\u0e23\u0e49\u0e2d\u0e22\u0e25\u0e30",
+        "SOURCE": "\u0e01\u0e23\u0e21\u0e01\u0e32\u0e23\u0e1b\u0e01\u0e04\u0e23\u0e2d\u0e07 \u0e01\u0e23\u0e30\u0e17\u0e23\u0e27\u0e07\u0e21\u0e2b\u0e32\u0e14\u0e44\u0e17\u0e22"
+    },
+    {
+        "YEAR": "2564",
+        "SEX": "\u0e0a\u0e32\u0e22",
+        "VALUE": "20981180.00",
+        "UNIT": "\u0e04\u0e19",
+        "VALUE_PERCENT": "64.88",
+        "UNIT_PERCENT": "\u0e23\u0e49\u0e2d\u0e22\u0e25\u0e30",
+        "SOURCE": "\u0e01\u0e23\u0e21\u0e01\u0e32\u0e23\u0e1b\u0e01\u0e04\u0e23\u0e2d\u0e07 \u0e01\u0e23\u0e30\u0e17\u0e23\u0e27\u0e07\u0e21\u0e2b\u0e32\u0e14\u0e44\u0e17\u0e22"
+    },
+    {
+        "YEAR": "2555",
+        "SEX": "\u0e2b\u0e0d\u0e34\u0e07",
+        "VALUE": "21902881.00",
+        "UNIT": "\u0e04\u0e19",
+        "VALUE_PERCENT": "66.87",
+        "UNIT_PERCENT": "\u0e23\u0e49\u0e2d\u0e22\u0e25\u0e30",
+        "SOURCE": "\u0e01\u0e23\u0e21\u0e01\u0e32\u0e23\u0e1b\u0e01\u0e04\u0e23\u0e2d\u0e07 \u0e01\u0e23\u0e30\u0e17\u0e23\u0e27\u0e07\u0e21\u0e2b\u0e32\u0e14\u0e44\u0e17\u0e22"
+    },
+    {
+        "YEAR": "2556",
+        "SEX": "\u0e2b\u0e0d\u0e34\u0e07",
+        "VALUE": "21838414.00",
+        "UNIT": "\u0e04\u0e19",
+        "VALUE_PERCENT": "66.30",
+        "UNIT_PERCENT": "\u0e23\u0e49\u0e2d\u0e22\u0e25\u0e30",
+        "SOURCE": "\u0e01\u0e23\u0e21\u0e01\u0e32\u0e23\u0e1b\u0e01\u0e04\u0e23\u0e2d\u0e07 \u0e01\u0e23\u0e30\u0e17\u0e23\u0e27\u0e07\u0e21\u0e2b\u0e32\u0e14\u0e44\u0e17\u0e22"
+    },
+    {
+        "YEAR": "2557",
+        "SEX": "\u0e2b\u0e0d\u0e34\u0e07",
+        "VALUE": "21848642.00",
+        "UNIT": "\u0e04\u0e19",
+        "VALUE_PERCENT": "65.96",
+        "UNIT_PERCENT": "\u0e23\u0e49\u0e2d\u0e22\u0e25\u0e30",
+        "SOURCE": "\u0e01\u0e23\u0e21\u0e01\u0e32\u0e23\u0e1b\u0e01\u0e04\u0e23\u0e2d\u0e07 \u0e01\u0e23\u0e30\u0e17\u0e23\u0e27\u0e07\u0e21\u0e2b\u0e32\u0e14\u0e44\u0e17\u0e22"
+    },
+    {
+        "YEAR": "2558",
+        "SEX": "\u0e2b\u0e0d\u0e34\u0e07",
+        "VALUE": "21877168.00",
+        "UNIT": "\u0e04\u0e19",
+        "VALUE_PERCENT": "65.41",
+        "UNIT_PERCENT": "\u0e23\u0e49\u0e2d\u0e22\u0e25\u0e30",
+        "SOURCE": "\u0e01\u0e23\u0e21\u0e01\u0e32\u0e23\u0e1b\u0e01\u0e04\u0e23\u0e2d\u0e07 \u0e01\u0e23\u0e30\u0e17\u0e23\u0e27\u0e07\u0e21\u0e2b\u0e32\u0e14\u0e44\u0e17\u0e22"
+    },
+    {
+        "YEAR": "2559",
+        "SEX": "\u0e2b\u0e0d\u0e34\u0e07",
+        "VALUE": "21862811.00",
+        "UNIT": "\u0e04\u0e19",
+        "VALUE_PERCENT": "65.12",
+        "UNIT_PERCENT": "\u0e23\u0e49\u0e2d\u0e22\u0e25\u0e30",
+        "SOURCE": "\u0e01\u0e23\u0e21\u0e01\u0e32\u0e23\u0e1b\u0e01\u0e04\u0e23\u0e2d\u0e07 \u0e01\u0e23\u0e30\u0e17\u0e23\u0e27\u0e07\u0e21\u0e2b\u0e32\u0e14\u0e44\u0e17\u0e22"
+    },
+    {
+        "YEAR": "2560",
+        "SEX": "\u0e2b\u0e0d\u0e34\u0e07",
+        "VALUE": "21816329.00",
+        "UNIT": "\u0e04\u0e19",
+        "VALUE_PERCENT": "64.69",
+        "UNIT_PERCENT": "\u0e23\u0e49\u0e2d\u0e22\u0e25\u0e30",
+        "SOURCE": "\u0e01\u0e23\u0e21\u0e01\u0e32\u0e23\u0e1b\u0e01\u0e04\u0e23\u0e2d\u0e07 \u0e01\u0e23\u0e30\u0e17\u0e23\u0e27\u0e07\u0e21\u0e2b\u0e32\u0e14\u0e44\u0e17\u0e22"
+    },
+    {
+        "YEAR": "2561",
+        "SEX": "\u0e2b\u0e0d\u0e34\u0e07",
+        "VALUE": "21756221.00",
+        "UNIT": "\u0e04\u0e19",
+        "VALUE_PERCENT": "64.26",
+        "UNIT_PERCENT": "\u0e23\u0e49\u0e2d\u0e22\u0e25\u0e30",
+        "SOURCE": "\u0e01\u0e23\u0e21\u0e01\u0e32\u0e23\u0e1b\u0e01\u0e04\u0e23\u0e2d\u0e07 \u0e01\u0e23\u0e30\u0e17\u0e23\u0e27\u0e07\u0e21\u0e2b\u0e32\u0e14\u0e44\u0e17\u0e22"
+    },
+    {
+        "YEAR": "2562",
+        "SEX": "\u0e2b\u0e0d\u0e34\u0e07",
+        "VALUE": "21673773.00",
+        "UNIT": "\u0e04\u0e19",
+        "VALUE_PERCENT": "63.83",
+        "UNIT_PERCENT": "\u0e23\u0e49\u0e2d\u0e22\u0e25\u0e30",
+        "SOURCE": "\u0e01\u0e23\u0e21\u0e01\u0e32\u0e23\u0e1b\u0e01\u0e04\u0e23\u0e2d\u0e07 \u0e01\u0e23\u0e30\u0e17\u0e23\u0e27\u0e07\u0e21\u0e2b\u0e32\u0e14\u0e44\u0e17\u0e22"
+    },
+    {
+        "YEAR": "2563",
+        "SEX": "\u0e2b\u0e0d\u0e34\u0e07",
+        "VALUE": "21566555.00",
+        "UNIT": "\u0e04\u0e19",
+        "VALUE_PERCENT": "63.79",
+        "UNIT_PERCENT": "\u0e23\u0e49\u0e2d\u0e22\u0e25\u0e30",
+        "SOURCE": "\u0e01\u0e23\u0e21\u0e01\u0e32\u0e23\u0e1b\u0e01\u0e04\u0e23\u0e2d\u0e07 \u0e01\u0e23\u0e30\u0e17\u0e23\u0e27\u0e07\u0e21\u0e2b\u0e32\u0e14\u0e44\u0e17\u0e22"
+    },
+    {
+        "YEAR": "2564",
+        "SEX": "\u0e2b\u0e0d\u0e34\u0e07",
+        "VALUE": "21447791.00",
+        "UNIT": "\u0e04\u0e19",
+        "VALUE_PERCENT": "63.15",
+        "UNIT_PERCENT": "\u0e23\u0e49\u0e2d\u0e22\u0e25\u0e30",
+        "SOURCE": "\u0e01\u0e23\u0e21\u0e01\u0e32\u0e23\u0e1b\u0e01\u0e04\u0e23\u0e2d\u0e07 \u0e01\u0e23\u0e30\u0e17\u0e23\u0e27\u0e07\u0e21\u0e2b\u0e32\u0e14\u0e44\u0e17\u0e22"
+    }
+]
